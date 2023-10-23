@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="a quiz titled 'HTML and CSS quiz">
+    <meta name="author" content="Tristan Heilmann">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Quiz | Tristan Heilmann</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>Tristan's Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <div class="form-item">
+                    <label for="q1">Question 1</label>
+                    <input type="text" id="q1" name="q1">
+                </div>
+                <label for="q2">Question 2</label>
+                <textarea id="q2" name="q2" rows="4" placeholder="Enter text here"></textarea>
+                <div class="form-item">
+                    <label for="q3">Question 3</label>
+                    <select name="q3" id="q3">
+                        <option value="zero-eth">Select One</option>
+                        <option value="first">Option 1</option>
+                        <option value="second">Option 2</option>
+                        <option value="third">Option 3</option>
+                    </select>
+                </div>
+                <div class="form-item">
+                    <label for="q4">Question 4</label>
+                    <input type="number" id="q4" name="q4">
+                </div>
+            </fieldset>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+    <footer>
+        <p>©️2023 ✨ Tristan Heilmann</p>
+    </footer>
+</body>
+</html>
