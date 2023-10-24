@@ -213,6 +213,12 @@ td {
 figure {
     padding-top: 50px;
     padding-bottom: 50px;
+
+}
+
+figure img {
+    width: 1200px;
+    height: auto;
 }
 
 form {
