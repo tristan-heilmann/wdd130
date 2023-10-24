@@ -92,15 +92,16 @@ h1 {
     color: var(--primary-color);
     font-style: normal;
     font-weight: normal;
-    position: absolute;
     font-size: 50px;
-    bottom: 350px;
-    left: 160px;
     text-wrap: nowrap;
+    text-align: center;
     background: rgba(0, 0, 0, 0.3);
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 400px;
+    padding-right: 570px;
     border: 1px solid black;
+    margin-top: 25px;
+    margin-left: 400px;
+    margin-bottom: 50px;
 }
 
 article {
@@ -197,3 +198,24 @@ nav.social_media {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+table, td {
+    margin-top: 25px;
+    border: 1px solid black;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+td {
+    padding: 10px;
+}
+
+figure {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+form {
+    padding-right: 500px;
+}
+
