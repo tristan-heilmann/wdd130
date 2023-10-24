@@ -201,8 +201,6 @@ nav.social_media {
 table, td {
     margin-top: 25px;
     border: 1px solid black;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 td {
@@ -222,5 +220,22 @@ figure img {
 
 form {
     padding-right: 500px;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: darkgreen;
 }
 
