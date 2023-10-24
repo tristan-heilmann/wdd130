@@ -14,48 +14,60 @@
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
+            <a href="site-plan-rafting.html">Trips</a>
             <a href="contact.html">Contact</a>
         </nav>
     </header>
     <main>
-        <div class="hero">
-            <img src="images/hero.jpg" alt="A canyon river.">
-            <h1>Whitewater Adventures</h1>
-            <article class="description">
-                <h2>:D</h2>
-                <img src="images/happy.jpg" alt="Four people wearing yellow helmets and orange life vests. They are all happy.">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum quae quia suscipit! Dolores pariatur illum repellat odio quia facere quis! Sequi, architecto! Modi excepturi error asperiores eos officia illo. Aliquid.</p>
-            </article>
+        <h1>Contact Us</h1>
+        <section>
+        <p>Whitewater Rafting</p>
+        <p>Phone: (999)-999-9999</p>
+        <p>Email: <a href="mailto">me</a></p>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6654.62922781202!2d-82.23458279999998!3d33.4931908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1698099782173!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <section class="history">
-            <h2>History</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nam aut repellat mollitia non nobis tempore quis beatae commodi ut voluptatibus, vero est? Dicta, quibusdam. Explicabo quia asperiores nam rem.</p>
         </section>
-        <section class="adventure">
-            <h2>Adventure Awaits You!</h2>
-            <!--I don't know the real names of any of these locations so the names in the figcaptions are made up.--> 
-            <figure class="img_1">
-                <img src="images/whitewater_rafting_1.jpg" alt="A group of people whitewater rafting.">
-                <figcaption>The Dart</figcaption>
+        <section>
+            <figure>
+                <img src="images/happy_employees_1.jpg" alt="happy employees">
+                <figcaption></figcaption>
             </figure>
-            <figure class="img_2">
-                <img src="images/whitewater_rafting_2.jpg" alt="A group of people whitewater rafting.">
-                <figcaption>Serpent's Pass</figcaption>
-            </figure>
-            <figure class="img_3">
-                <img src="images/whitewater_rafting_3.jpg" alt="A group of people whitewater rafting.">
-                <figcaption>Eel River</figcaption>
-            </figure>
-            <figure class="img_4">
-                <img src="images/whitewater_rafting_4.jpg" alt="A group of people whitewater rafting.">
-                <figcaption>Los Dientes del Diablo</figcaption>
-            </figure>
-            <figure class="img_5">
-                <img src="images/whitewater_rafting_5.jpg" alt="A group of people whitewater rafting.">
-                <figcaption>Heron's Creek</figcaption>
+            <figure>
+                <img src="images/happy_employees_2.jpg" alt="happy employees">
+                <figcaption></figcaption>
             </figure>
         </section>
+        <form>
+            <h2></h2>
+            <fieldset>
+                <div class="form-item">
+                    <input type="text" id="name" name="name">
+                    <label for="name">Name</label>
+                </div>
+                <div class="form-item">
+                    <input type="text" id="emailaddress" name="emailaddress">
+                    <label for="emailaddress">Email</label>
+                </div>
+                <br>
+                <div class="form-item">
+                    <p>What is the purpose of your message?</p><br>
+                    <input type="radio" name="messagepurpose" id="general">
+                    <label for="general">General Inquiry</label><br>
+                    <input type="radio" name="messagepurpose" id="reservation">
+                    <label for="reservation">Reservation Question</label><br>
+                    <input type="radio" name="messagepurpose" id="suggestion">
+                    <label for="suggestion">Webside Suggestion</label>
+                </div>
+                <br>
+                <label for="message">What is Your Message?</label><br>
+                <textarea id="message" name="message" rows="6" placeholder="Enter text here"></textarea><br>
+                <br>
+                <input type="checkbox" name="newsletter" id="newsletter">
+                <label for="newsletter">Please Subsribe to The Monthly Newsletter</label>
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
     </main>
     <footer>
         <nav class="social_media">
