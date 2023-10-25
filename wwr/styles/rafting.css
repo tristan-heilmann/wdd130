@@ -239,14 +239,6 @@ button:hover {
     background-color: darkgreen;
 }
 
-.hero img {
-    position: relative;
-    height: 430px;
-    width: auto;
-    float: left;
-    bottom: 250px;
-}
-
 form {
     width: 650px;
     margin: 0 auto;
@@ -332,10 +324,9 @@ footer {
     grid-template-columns: 1fr 2fr;
 }
 
-.grid img {
+.grid_2 img {
     position: relative;
     height: auto;
     width: 500px;
     left: 700px;
-    margin: 10px;
 }
