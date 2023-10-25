@@ -331,3 +331,11 @@ footer {
 .columm2 {
     grid-template-columns: 1fr 2fr;
 }
+
+.grid img {
+    position: relative;
+    height: auto;
+    width: 500px;
+    left: 700px;
+    margin: 10px;
+}
